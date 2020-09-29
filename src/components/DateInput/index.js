@@ -1,7 +1,6 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
-import TimeInputPolyfill from 'react-time-input-polyfill';
 import { format, parse, isValid, isEqual, getHours, getMinutes, getSeconds, set } from '../../date';
 
 class DateInput extends PureComponent {

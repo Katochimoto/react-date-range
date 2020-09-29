@@ -11,8 +11,6 @@ var _propTypes = _interopRequireDefault(require("prop-types"));
 
 var _classnames = _interopRequireDefault(require("classnames"));
 
-var _reactTimeInputPolyfill = _interopRequireDefault(require("react-time-input-polyfill"));
-
 var _date = require("../../date");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
@@ -206,7 +204,7 @@ var DateInput = /*#__PURE__*/function (_PureComponent) {
           invalid = _this$state4.invalid;
       return /*#__PURE__*/_react["default"].createElement("span", {
         className: (0, _classnames["default"])('rdrDateInput', className, {
-          rdrWarning: !invalid
+          rdrWarning: invalid
         })
       }, /*#__PURE__*/_react["default"].createElement("input", {
         readOnly: readOnly,

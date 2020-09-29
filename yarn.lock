@@ -8863,15 +8863,7 @@ react-test-renderer@^16.0.0-0:
     react-is "^16.8.6"
     scheduler "^0.18.0"
 
-react-time-input-polyfill@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/react-time-input-polyfill/-/react-time-input-polyfill-1.0.3.tgz#929700a63da25b90f7819377bbe742bc92edbe58"
-  integrity sha512-zkKyEFp0mgeM7Gel0GVq+jzAz8qfNmE5xT4p7Qu2VKHrOnwdYV//810fYyyRx1EaVjBVqnP6uBhDrmDhdDTgIg==
-  dependencies:
-    react "^16.10.2"
-    time-input-polyfill "^1.0.9"
-
-react@16.13.1, react@^16.10.2:
+react@16.13.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react/-/react-16.13.1.tgz#2e818822f1a9743122c063d6410d85c1e3afe48e"
   integrity sha512-YMZQQq32xHLX0bz5Mnibv1/LHb3Sqzngu7xstSM+vrkE5Kzr9xE0yMByK5kMoTK30YVJE61WfbxIFFvfeDKT1w==
@@ -10271,11 +10263,6 @@ thunky@^1.0.2:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/thunky/-/thunky-1.1.0.tgz#5abaf714a9405db0504732bbccd2cedd9ef9537d"
   integrity sha512-eHY7nBftgThBqOyHGVN+l8gF0BucP09fMo0oO/Lb0w1OF80dJv+lDVpXG60WMQvkcxAkNybKsrEIE3ZtKGmPrA==
-
-time-input-polyfill@^1.0.9:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/time-input-polyfill/-/time-input-polyfill-1.0.9.tgz#d5541738ee854424e4f908143ff957dabee01c86"
-  integrity sha512-Ow1PGUnAigUYf41HE/wcM5IjfmQCar86DrOKp5jb9p1DJfLyONDESd2u1WUdt5VG9kxTc8Snh08XoOGl4bLZKA==
 
 timers-browserify@^2.0.4:
   version "2.0.11"
