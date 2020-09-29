@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Calendar from '../Calendar';
 import { rangeShape } from '../DayCell';
 import { findNextRangeIndex, generateStyles } from '../../utils';
-import { isBefore, differenceInCalendarDays, addDays, min, isWithinInterval, max } from 'date-fns';
+import { isBefore, differenceInCalendarDays, addDays, min, isWithinInterval, max } from '../../date';
 import classnames from 'classnames';
 import coreStyles from '../../styles';
 

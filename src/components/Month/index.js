@@ -14,7 +14,7 @@ import {
   isWeekend,
   isWithinInterval,
   eachDayOfInterval,
-} from 'date-fns';
+} from '../../date';
 import { getMonthDisplayRange } from '../../utils';
 
 function renderWeekdays(styles, dateOptions, weekdayDisplayFormat) {

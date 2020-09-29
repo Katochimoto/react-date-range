@@ -8,7 +8,7 @@ import {
   endOfWeek,
   differenceInCalendarDays,
   addDays,
-} from 'date-fns';
+} from './date';
 
 export function calcFocusDate(currentFocusedDate, props) {
   const { shownDate, date, months, ranges, focusedRange, displayMode } = props;

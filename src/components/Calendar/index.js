@@ -8,6 +8,7 @@ import classnames from 'classnames';
 import ReactList from 'react-list';
 import { shallowEqualObjects } from 'shallow-equal';
 import {
+  defaultLocale,
   addMonths,
   format,
   eachDayOfInterval,
@@ -25,8 +26,7 @@ import {
   differenceInDays,
   min,
   max,
-} from 'date-fns';
-import defaultLocale from 'date-fns/locale/en-US';
+} from '../../date';
 import coreStyles from '../../styles';
 
 class Calendar extends PureComponent {
