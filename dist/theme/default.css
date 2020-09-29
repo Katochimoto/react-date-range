@@ -316,6 +316,7 @@
   line-height: 18px;
   padding: 10px 20px;
   text-align: left;
+  white-space: nowrap;
 }
 
 .rdrInputRanges{
