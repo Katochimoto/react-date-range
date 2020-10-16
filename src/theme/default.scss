@@ -1,7 +1,11 @@
+$rdr-calendar-wrapper-color: #000000 !default;
+$rdr-calendar-wrapper-bg: #ffffff !default;
+$rdr-calendar-wrapper-font-size: 12px !default;
+
 .rdrCalendarWrapper{
-  color: #000000;
-  background: #ffffff;
-  font-size: 12px;
+  color: $rdr-calendar-wrapper-color;
+  background: $rdr-calendar-wrapper-bg;
+  font-size: $rdr-calendar-wrapper-font-size;
 }
 
 .rdrDateDisplayWrapper{
