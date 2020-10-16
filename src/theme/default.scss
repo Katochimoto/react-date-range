@@ -1,6 +1,7 @@
 $rdr-calendar-wrapper-color: #000000 !default;
 $rdr-calendar-wrapper-bg: #ffffff !default;
 $rdr-calendar-wrapper-font-size: 12px !default;
+$rdr-day-color: #1d2429 !default;
 
 .rdrCalendarWrapper{
   color: $rdr-calendar-wrapper-color;
@@ -144,7 +145,8 @@ $rdr-calendar-wrapper-font-size: 12px !default;
   line-height: 3.000em;
   height: 3.000em;
   text-align: center;
-  color: #1d2429;
+  color: $rdr-day-color;
+
   &:focus {
     outline: 0;
   }
@@ -163,6 +165,10 @@ $rdr-calendar-wrapper-font-size: 12px !default;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  & span {
+    color: $rdr-day-color;
+  }
 }
 
 .rdrDayToday .rdrDayNumber span{

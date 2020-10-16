@@ -139,8 +139,11 @@
   display: -webkit-box;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center
 }
+.rdrDayNumber span {
+    color: #1d2429;
+  }
 .rdrDayToday .rdrDayNumber span{
   font-weight: 500
 }

@@ -144,10 +144,6 @@
   position: relative;
 }
 
-.rdrDayNumber span{
-    color: #1d2429;
-  }
-
 .rdrDayDisabled {
   cursor: not-allowed;
 }
