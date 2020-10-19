@@ -185,7 +185,7 @@ class Calendar extends PureComponent {
         {showMonthArrow ? (
           <button
             type="button"
-            className={classnames(styles.nextPrevButton, styles.prevButton)}
+            className={classnames(styles.nextPrevButton, styles.prevButton, 'btn btn-sm btn-fill-secondary btn-text')}
             onClick={() => changeShownDate(-1, 'monthOffset')}>
             <i />
           </button>
@@ -194,6 +194,7 @@ class Calendar extends PureComponent {
           <span className={styles.monthAndYearPickers}>
             <span className={styles.monthPicker}>
               <select
+                className="form-select form-select-sm"
                 value={focusedDate.getMonth()}
                 onChange={e => changeShownDate(e.target.value, 'setMonth')}>
                 {this.state.monthNames.map((monthName, i) => (
@@ -206,6 +207,7 @@ class Calendar extends PureComponent {
             <span className={styles.monthAndYearDivider} />
             <span className={styles.yearPicker}>
               <select
+                className="form-select form-select-sm"
                 value={focusedDate.getFullYear()}
                 onChange={e => changeShownDate(e.target.value, 'setYear')}>
                 {new Array(upperYearLimit - lowerYearLimit + 1)
@@ -229,7 +231,7 @@ class Calendar extends PureComponent {
         {showMonthArrow ? (
           <button
             type="button"
-            className={classnames(styles.nextPrevButton, styles.nextButton)}
+            className={classnames(styles.nextPrevButton, styles.nextButton, 'btn btn-sm btn-fill-secondary btn-text')}
             onClick={() => changeShownDate(+1, 'monthOffset')}>
             <i />
           </button>

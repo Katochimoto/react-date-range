@@ -217,7 +217,7 @@ var Calendar = /*#__PURE__*/function (_PureComponent) {
         className: styles.monthAndYearWrapper
       }, showMonthArrow ? /*#__PURE__*/_react["default"].createElement("button", {
         type: "button",
-        className: (0, _classnames3["default"])(styles.nextPrevButton, styles.prevButton),
+        className: (0, _classnames3["default"])(styles.nextPrevButton, styles.prevButton, 'btn btn-sm btn-fill-secondary btn-text'),
         onClick: function onClick() {
           return changeShownDate(-1, 'monthOffset');
         }
@@ -226,6 +226,7 @@ var Calendar = /*#__PURE__*/function (_PureComponent) {
       }, /*#__PURE__*/_react["default"].createElement("span", {
         className: styles.monthPicker
       }, /*#__PURE__*/_react["default"].createElement("select", {
+        className: "form-select form-select-sm",
         value: focusedDate.getMonth(),
         onChange: function onChange(e) {
           return changeShownDate(e.target.value, 'setMonth');
@@ -240,6 +241,7 @@ var Calendar = /*#__PURE__*/function (_PureComponent) {
       }), /*#__PURE__*/_react["default"].createElement("span", {
         className: styles.yearPicker
       }, /*#__PURE__*/_react["default"].createElement("select", {
+        className: "form-select form-select-sm",
         value: focusedDate.getFullYear(),
         onChange: function onChange(e) {
           return changeShownDate(e.target.value, 'setYear');
@@ -254,7 +256,7 @@ var Calendar = /*#__PURE__*/function (_PureComponent) {
         className: styles.monthAndYearPickers
       }, _this.state.monthNames[focusedDate.getMonth()], " ", focusedDate.getFullYear()), showMonthArrow ? /*#__PURE__*/_react["default"].createElement("button", {
         type: "button",
-        className: (0, _classnames3["default"])(styles.nextPrevButton, styles.nextButton),
+        className: (0, _classnames3["default"])(styles.nextPrevButton, styles.nextButton, 'btn btn-sm btn-fill-secondary btn-text'),
         onClick: function onClick() {
           return changeShownDate(+1, 'monthOffset');
         }
