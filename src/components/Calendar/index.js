@@ -185,9 +185,9 @@ class Calendar extends PureComponent {
         {showMonthArrow ? (
           <button
             type="button"
-            className={classnames(styles.nextPrevButton, styles.prevButton, 'btn btn-sm btn-fill-secondary btn-text')}
+            className="btn btn-sm btn-fill-secondary btn-text mx-2"
             onClick={() => changeShownDate(-1, 'monthOffset')}>
-            <i />
+            ←
           </button>
         ) : null}
         {showMonthAndYearPickers ? (
@@ -231,9 +231,9 @@ class Calendar extends PureComponent {
         {showMonthArrow ? (
           <button
             type="button"
-            className={classnames(styles.nextPrevButton, styles.nextButton, 'btn btn-sm btn-fill-secondary btn-text')}
+            className="btn btn-sm btn-fill-secondary btn-text mx-2"
             onClick={() => changeShownDate(+1, 'monthOffset')}>
-            <i />
+            →
           </button>
         ) : null}
       </div>

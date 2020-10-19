@@ -217,11 +217,11 @@ var Calendar = /*#__PURE__*/function (_PureComponent) {
         className: styles.monthAndYearWrapper
       }, showMonthArrow ? /*#__PURE__*/_react["default"].createElement("button", {
         type: "button",
-        className: (0, _classnames3["default"])(styles.nextPrevButton, styles.prevButton, 'btn btn-sm btn-fill-secondary btn-text'),
+        className: "btn btn-sm btn-fill-secondary btn-text mx-2",
         onClick: function onClick() {
           return changeShownDate(-1, 'monthOffset');
         }
-      }, /*#__PURE__*/_react["default"].createElement("i", null)) : null, showMonthAndYearPickers ? /*#__PURE__*/_react["default"].createElement("span", {
+      }, "\u2190") : null, showMonthAndYearPickers ? /*#__PURE__*/_react["default"].createElement("span", {
         className: styles.monthAndYearPickers
       }, /*#__PURE__*/_react["default"].createElement("span", {
         className: styles.monthPicker
@@ -256,11 +256,11 @@ var Calendar = /*#__PURE__*/function (_PureComponent) {
         className: styles.monthAndYearPickers
       }, _this.state.monthNames[focusedDate.getMonth()], " ", focusedDate.getFullYear()), showMonthArrow ? /*#__PURE__*/_react["default"].createElement("button", {
         type: "button",
-        className: (0, _classnames3["default"])(styles.nextPrevButton, styles.nextButton, 'btn btn-sm btn-fill-secondary btn-text'),
+        className: "btn btn-sm btn-fill-secondary btn-text mx-2",
         onClick: function onClick() {
           return changeShownDate(+1, 'monthOffset');
         }
-      }, /*#__PURE__*/_react["default"].createElement("i", null)) : null);
+      }, "\u2192") : null);
     });
 
     _defineProperty(_assertThisInitialized(_this), "renderDateDisplay", function () {
