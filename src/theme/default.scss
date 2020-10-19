@@ -10,6 +10,7 @@ $rdr-defined-ranges-wrapper-border: 1px solid #eff2f7 !default;
 $rdr-static-bange-bg: #ffffff !default;
 $rdr-static-bange-border: 1px solid #eff2f7 !default;
 $rdr-static-bange-hover-bg: #eff2f7 !default;
+$rdr-static-bange-color: #1d2429 !default;
 
 $rdr-date-display-wrapper-bg: #eff2f7 !default;
 $rdr-date-display-item-bg: #ffffff !default;
@@ -309,6 +310,7 @@ $rdr-date-display-item-color: #849095 !default;
   border-bottom: $rdr-static-bange-border;
   padding: 0;
   background: $rdr-static-bange-bg;
+  color: $rdr-static-bange-color;
 
   &:hover, &:focus {
     .rdrStaticRangeLabel{

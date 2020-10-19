@@ -227,7 +227,8 @@
   outline: 0;
   border-bottom: 1px solid #eff2f7;
   padding: 0;
-  background: #ffffff
+  background: #ffffff;
+  color: #1d2429
 }
 .rdrStaticRange:hover .rdrStaticRangeLabel,.rdrStaticRange:focus .rdrStaticRangeLabel{
       background: #eff2f7;
